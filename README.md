@@ -1,7 +1,7 @@
 ## Setsuna
 Setsuna is a fun little project made for the [Supabase Launch Week X Hackathon](https://supabase.com/blog/supabase-hackathon-lwx) which lets you create virtual time capsules with files and notes that you can open in the future to relive the past memories. It's a simple idea, but it's a fun one. I hope you enjoy it!
 
-[https://github.com/asrvd/code-streak/assets/68690233/93a0b86d-7f64-42ee-b8a4-c8943780dea9](https://github.com/asrvd/code-streak/assets/68690233/c69a610d-a31c-428a-8f6e-0cb7254a2ac8)
+https://github.com/asrvd/code-streak/assets/68690233/c94f2afa-8a99-4282-9605-482e836a6b15
 
 ## Inspiration
 I've always been fascinated by the idea of time capsules  & think it's a fun way to preserve memories and relive them in the future. I've always wanted to create a time capsule for myself, but I never got around to doing it. So, I thought why not build a virtual time capsule where you can store files and notes and open them in the future. And that's how Setsuna was born. The beauty of virtual time capsules is that it can remain unharmed by the elements of nature and can be opened from anywhere in the world as long as you have an internet connection.
