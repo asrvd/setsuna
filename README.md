@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Setsuna
+Setsuna is a fun little project made for the [Supabase Launch Week X Hackathon](https://supabase.com/blog/supabase-hackathon-lwx) which lets you create virtual time capsules with files and notes that you can open in the future to relive the past memories. It's a simple idea, but it's a fun one. I hope you enjoy it!
 
-## Getting Started
+## Tech Stack
+- Next.js
+- TailwindCSS
+- Supabase
+- Vercel
+- Prisma
 
-First, run the development server:
+## Features
+- Create time capsules with files and notes.
+- Set a date for when you want to open the time capsule.
+- Get email reminders when the time capsule is ready to be opened.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+## How to run locally
+1. Clone the repo
+```
+git clone https://github.com/asrvd/setusna.git
+```
+2. Install dependencies
+```
+pnpm i
+```
+3. Create a `.env.local` or `.env` file and add the following environment variables
+```
+DATABASE_URL={DIRECT_URL}?pgbouncer=true&connection_limit=1
+DIRECT_URL=
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+NEXTAUTH_SECRET=
+SUPABASE_PROJECT_URL=
+SUPABASE_KEY=
+RESEND_API_KEY=
+```
+4. Fire up prisma
+```
+pnpm dlx prisma db push
+pnpm dlx prisma generate
+```
+5. Run the dev server
+```
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Conclusion
+I hope you enjoy Setsuna as much as I enjoyed building it. If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/_asheeshh) or open a new issue, and I'll get back to you as soon as I can. Thanks for checking out my project!

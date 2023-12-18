@@ -10,7 +10,10 @@ export default function Footer() {
           ashish
         </a>{" "}
         for the{" "}
-        <a href="https://" className="text-sm text-orange-900 font-bold">
+        <a
+          href="https://supabase.com/blog/supabase-hackathon-lwx"
+          className="text-sm text-orange-900 font-bold"
+        >
           Supabase LWX Hackathon
         </a>
       </p>
