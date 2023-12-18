@@ -3,6 +3,9 @@ Setsuna is a fun little project made for the [Supabase Launch Week X Hackathon](
 
 [https://github.com/asrvd/code-streak/assets/68690233/93a0b86d-7f64-42ee-b8a4-c8943780dea9](https://github.com/asrvd/code-streak/assets/68690233/c69a610d-a31c-428a-8f6e-0cb7254a2ac8)
 
+## Inspiration
+I've always been fascinated by the idea of time capsules  & think it's a fun way to preserve memories and relive them in the future. I've always wanted to create a time capsule for myself, but I never got around to doing it. So, I thought why not build a virtual time capsule where you can store files and notes and open them in the future. And that's how Setsuna was born. The beauty of virtual time capsules is that it can remain unharmed by the elements of nature and can be opened from anywhere in the world as long as you have an internet connection.
+
 ## Tech Stack
 - Next.js
 - TailwindCSS
@@ -44,6 +47,9 @@ pnpm dlx prisma generate
 ```
 pnpm dev
 ```
+
+## Team
+This project is solo built by me - [ashihs](https://twitter.com/_asheeshh)
 
 ## Conclusion
 I hope you enjoy Setsuna as much as I enjoyed building it. If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/_asheeshh) or open a new issue, and I'll get back to you as soon as I can. Thanks for checking out my project!
