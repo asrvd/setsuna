@@ -49,7 +49,7 @@ pnpm dev
 ```
 
 ## Team
-This project is solo built by me - [ashihs](https://twitter.com/_asheeshh)
+This project is solo built by me - [ashish](https://twitter.com/_asheeshh)
 
 ## Conclusion
 I hope you enjoy Setsuna as much as I enjoyed building it. If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/_asheeshh) or open a new issue, and I'll get back to you as soon as I can. Thanks for checking out my project!
