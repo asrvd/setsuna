@@ -70,7 +70,7 @@ function SaveBtn({ isDirty }: { isDirty: boolean }) {
   return (
     <button
       type="submit"
-      className="bg-orange-900 text-stone-100 px-3 py-2 max-w-max disabled:opacity-50 disabled:cursor-not-allowed"
+      className="bg-orange-900 hover:bg-orange-800 ease-in duration-300 text-stone-100 px-3 py-2 max-w-max disabled:opacity-50 disabled:cursor-not-allowed"
       disabled={pending || !isDirty}
     >
       {pending ? (

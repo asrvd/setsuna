@@ -20,7 +20,7 @@ export default function LockDialog({ capsule }: { capsule: CapsuleWithItems }) {
   return (
     <>
       <button
-        className="px-3 py-2 text-base bg-orange-900 text-stone-50 max-w-max"
+        className="px-3 py-2 text-base bg-orange-900 text-stone-50 max-w-max hover:bg-orange-800 ease-in duration-300"
         onClick={() => setOpen(true)}
       >
         Lock capsule

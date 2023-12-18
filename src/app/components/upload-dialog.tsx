@@ -133,7 +133,7 @@ function SubmitBtn() {
 
   return (
     <button
-      className="px-3 py-2 text-lg bg-orange-900 text-stone-50 max-w-max"
+      className="px-3 py-2 text-lg hover:bg-orange-800 ease-in duration-300 bg-orange-900 text-stone-50 max-w-max"
       type="submit"
     >
       {pending ? (

@@ -42,13 +42,27 @@ async function Capsules() {
               <Link href={`/capsule/${capsule.id}`} key={capsule.id}>
                 <div
                   key={capsule.id}
-                  className="flex flex-col gap-3 justify-between aspect-square bg-orange-200/90 p-2 w-full h-full"
+                  className="flex flex-col gap-3 justify-between aspect-square bg-orange-200/90 hover:bg-orange-200/70 p-2 w-full h-full ease-in duration-300 relative overflow-hidden"
                 >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-36 w-36 absolute -bottom-10 -right-10 text-orange-300/60"
+                    viewBox="0 0 24 24"
+                  >
+                    <g fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 8v4l2.5 2.5"
+                      />
+                      <path d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z" />
+                    </g>
+                  </svg>
                   <div className="flex flex-col gap-1 max-h-[90%] overflow-hidden">
-                    <h3 className="text-xl font-bold">{capsule.name}</h3>
-                    <p className="text-stone-900">{capsule.description}</p>
+                    <h3 className="text-xl font-bold z-10">{capsule.name}</h3>
+                    <p className="text-stone-900 z-10">{capsule.description}</p>
                   </div>
-                  <span className="text-sm text-stone-700">
+                  <span className="text-sm text-stone-700 z-10">
                     {capsule.locked ? "Locked" : "Not locked"}
                   </span>
                 </div>

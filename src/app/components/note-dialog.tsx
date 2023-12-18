@@ -100,7 +100,7 @@ const SubmitBtn = () => {
   return (
     <button
       type="submit"
-      className="px-3 py-2 text-lg bg-orange-900 text-stone-50 max-w-max"
+      className="px-3 py-2 text-lg bg-orange-900 hover:bg-orange-800 ease-in duration-300 text-stone-50 max-w-max"
     >
       {pending ? (
         <p className="flex gap-2 items-center">

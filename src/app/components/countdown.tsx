@@ -45,7 +45,7 @@ export default function CapsuleCountdown({
   if (openingDate.getTime() <= Date.now()) {
     return (
       <button
-        className="px-3 py-2 text-base bg-orange-900 text-stone-50 max-w-max self-end"
+        className="px-3 py-2 text-base hover:bg-orange-800 ease-in duration-300 bg-orange-900 text-stone-50 max-w-max self-end"
         onClick={async () => {
           setUnlocking(true);
           await unlockCapsule(capsuleId);
